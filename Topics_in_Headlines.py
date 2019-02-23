@@ -87,6 +87,5 @@ def main():
     for idx, topic in lda_model_tfidf.print_topics(-1):
         print('Topic: {} Word: {}'.format(idx, topic))
 
-
 if __name__ == "__main__":
     main()

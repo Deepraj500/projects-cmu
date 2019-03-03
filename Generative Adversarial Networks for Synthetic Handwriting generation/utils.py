@@ -7,10 +7,10 @@ from IPython import display
 from matplotlib import pyplot as plt
 import torch
 
+
 '''
     TensorBoard Data will be stored in './runs' path
 '''
-
 
 class Logger:
 
